@@ -10,6 +10,7 @@ public class GetSecondToLastElement {
         String[] array = {"the", "man", "of", "steel", "fights", "a", "never-ending", "battle", "for","truth"};
         String expected = "for";
         String actual = StringArrayUtils.getSecondToLastElement(array);
+        System.out.println(actual);
         Assert.assertEquals(expected, actual);
     }
 

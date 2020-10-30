@@ -7,7 +7,7 @@ import org.junit.Test;
  * Created by super-yang on 03/05/2020.
  */
 
-public class ReverseTest {
+public class ReverseTest extends StringArrayUtils {
 
     @Test
     public void testReverse1() {
